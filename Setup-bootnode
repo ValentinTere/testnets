@@ -58,7 +58,7 @@ services:
       CHARON_LOG_LEVEL: info
       CHARON_JAEGER_SERVICE: charon
       CHARON_P2P_EXTERNAL_HOSTNAME: charon
-      CHARON_P2P_BOOTNODES: http://youip:3640/enr
+      CHARON_P2P_BOOTNODES: http://youbootnodeip:3640/enr
       
       
       --------------------------------------------------------------------------------------------------------------------------
