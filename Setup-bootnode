@@ -20,7 +20,7 @@ services:
       CHARON_P2P_UDP_ADDRESS: 0.0.0.0:3630
       CHARON_BOOTNODE_HTTP_ADDRESS: 0.0.0.0:3640
       CHARON_LOG_LEVEL: debug
-      CHARON_P2P_EXTERNAL_HOSTNAME: 95.111.229.221
+      CHARON_P2P_EXTERNAL_HOSTNAME: youip
     ports:
       - 3610:3610/tcp
       - 3630:3630/udp
@@ -58,7 +58,7 @@ services:
       CHARON_LOG_LEVEL: info
       CHARON_JAEGER_SERVICE: charon
       CHARON_P2P_EXTERNAL_HOSTNAME: charon
-      CHARON_P2P_BOOTNODES: http://95.111.229.221:3640/enr
+      CHARON_P2P_BOOTNODES: http://youip:3640/enr
       
       
       --------------------------------------------------------------------------------------------------------------------------
