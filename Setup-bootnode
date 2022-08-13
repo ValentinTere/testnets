@@ -20,7 +20,7 @@ services:
       CHARON_P2P_UDP_ADDRESS: 0.0.0.0:3630
       CHARON_BOOTNODE_HTTP_ADDRESS: 0.0.0.0:3640
       CHARON_LOG_LEVEL: debug
-      CHARON_P2P_EXTERNAL_HOSTNAME: youip
+      CHARON_P2P_EXTERNAL_HOSTNAME: YOU BootnodeIP 
     ports:
       - 3610:3610/tcp
       - 3630:3630/udp
@@ -32,7 +32,7 @@ services:
     -----------------------------------------------------------------------------------------------------------------------------------------------------
     docker compose up -d 
     docker compose logs -f
-#   in all node add CHARON_P2P_BOOTNODES: http://bootnodeid:3640/enr
+#   in all node add CHARON_P2P_BOOTNODES: http://bootnodeid:3640/enr in cd charon-distributed-validator-node/docker-compose.yml
 
 -----------------------------------------------------------------------------------------
 #       _
