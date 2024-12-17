@@ -2,6 +2,8 @@
 # Clone this repo
 git clone https://github.com/ObolNetwork/charon-distributed-validator-node.git
 
+Ts
+
 # Change directory
 cd charon-distributed-validator-node/bootnode
 -------------------------------------------------------------------------------------------------------------------------------------------------
